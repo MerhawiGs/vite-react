@@ -1,21 +1,29 @@
-# React + TypeScript + Vite
+# client-side
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This template should help get you started developing with Vue 3 in Vite.
 
-While this project uses React, Vite supports many popular JS frameworks. [See all the supported frameworks](https://vitejs.dev/guide/#scaffolding-your-first-vite-project).
+## Recommended IDE Setup
 
-## Deploy Your Own
+[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
 
-Deploy your own Vite project with Vercel.
+## Customize configuration
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/vercel/tree/main/examples/vite-react&template=vite-react)
+See [Vite Configuration Reference](https://vite.dev/config/).
 
-_Live Example: https://vite-react-example.vercel.app_
+## Project Setup
 
-### Deploying From Your Terminal
+```sh
+npm install
+```
 
-You can deploy your new Vite project with a single command from your terminal using [Vercel CLI](https://vercel.com/download):
+### Compile and Hot-Reload for Development
 
-```shell
-$ vercel
+```sh
+npm run dev
+```
+
+### Compile and Minify for Production
+
+```sh
+npm run build
 ```
